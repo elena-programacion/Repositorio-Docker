@@ -1,0 +1,6 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ operation_name }}{% endblock %}
+{% block body %}
+<h1> {{ operation_name }}</h1>
+{{ include('basic_car/index.html.twig') }}
+{% endblock %}
